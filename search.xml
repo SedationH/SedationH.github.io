@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>四级选择填空高频词</title>
+      <link href="/2019/11/23/%E5%9B%9B%E7%BA%A7%E9%80%89%E6%8B%A9%E5%A1%AB%E7%A9%BA%E9%AB%98%E9%A2%91%E8%AF%8D/"/>
+      <url>/2019/11/23/%E5%9B%9B%E7%BA%A7%E9%80%89%E6%8B%A9%E5%A1%AB%E7%A9%BA%E9%AB%98%E9%A2%91%E8%AF%8D/</url>
+      
+        <content type="html"><![CDATA[<table><thead><tr><th>词汇</th><th>意思</th></tr></thead><tbody><tr><td>gravely</td><td>严肃的</td></tr><tr><td>relieved</td><td>放心的、解除</td></tr><tr><td>prompting</td><td>暗示、推动</td></tr><tr><td>specialize</td><td>专门从事</td></tr><tr><td>magnificent</td><td>壮丽的</td></tr><tr><td>victims</td><td>受害者</td></tr><tr><td>cooperative</td><td>合作的</td></tr><tr><td>balloon</td><td>气球</td></tr><tr><td>advanced</td><td>先进的</td></tr><tr><td>scary</td><td>令人惊慌的</td></tr><tr><td>derive</td><td>得到、源于</td></tr><tr><td>diversity</td><td>多样性、差异</td></tr><tr><td>narrow</td><td>狭隘的、限制</td></tr><tr><td>personnel</td><td>全体员工</td></tr><tr><td>profession</td><td>职业</td></tr><tr><td>remarkably</td><td>引人注目的</td></tr><tr><td>enormous</td><td>巨大的</td></tr><tr><td>hinder</td><td>阻碍</td></tr><tr><td>mission</td><td>代表团、使命</td></tr><tr><td>quote</td><td>引述、引用</td></tr><tr><td>recruit</td><td>招聘，新兵、新成员</td></tr><tr><td>accomodation</td><td>住处</td></tr><tr><td>clumsy</td><td>笨拙的、复杂难懂的</td></tr><tr><td>doubtful</td><td>难以预测的</td></tr><tr><td>historic</td><td>在历史上重要的、有影响的</td></tr><tr><td>incredible</td><td>惊人的</td></tr><tr><td>vast</td><td>广阔的</td></tr><tr><td>extent</td><td>程度、长度</td></tr><tr><td>extend</td><td>扩大</td></tr><tr><td>indicate</td><td>表明、象征</td></tr><tr><td>appeal</td><td>上诉、呼吁</td></tr><tr><td>porceed</td><td>前进、收益</td></tr><tr><td>essentially</td><td>本质上</td></tr><tr><td>associate</td><td>联系、合作</td></tr><tr><td>cling</td><td>附着于</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> note </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ExcelToMarkdown</title>
+      <link href="/2019/11/23/ExcelToMarkdown/"/>
+      <url>/2019/11/23/ExcelToMarkdown/</url>
+      
+        <content type="html"><![CDATA[<p>想把做成的单词表格放到博客中，便于查看，找了一下转换工具</p><p><a href="https://tableconvert.com/" target="_blank" rel="noopener">https://tableconvert.com/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> note </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>PAT-1018</title>
       <link href="/2019/11/22/PAT-1018/"/>
       <url>/2019/11/22/PAT-1018/</url>
@@ -58,9 +96,9 @@
       
         <tags>
             
-            <tag> dijkstra </tag>
-            
             <tag> 图 </tag>
+            
+            <tag> dijkstra </tag>
             
         </tags>
       
@@ -782,9 +820,9 @@
       
         <tags>
             
-            <tag> 图 </tag>
-            
             <tag> PAT </tag>
+            
+            <tag> 图 </tag>
             
             <tag> dfs </tag>
             
@@ -811,9 +849,9 @@
       
         <tags>
             
-            <tag> 图 </tag>
-            
             <tag> PAT </tag>
+            
+            <tag> 图 </tag>
             
             <tag> dfs </tag>
             
@@ -840,9 +878,9 @@
       
         <tags>
             
-            <tag> 图 </tag>
-            
             <tag> PAT </tag>
+            
+            <tag> 图 </tag>
             
             <tag> dfs </tag>
             
@@ -919,9 +957,9 @@
       
         <tags>
             
-            <tag> 图 </tag>
-            
             <tag> PAT </tag>
+            
+            <tag> 图 </tag>
             
         </tags>
       
