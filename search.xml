@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>PAT-1004</title>
+      <link href="/2019/11/24/PAT-1004/"/>
+      <url>/2019/11/24/PAT-1004/</url>
+      
+        <content type="html"><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>Counting Leaves<br><a href="https://pintia.cn/problem-sets/994805342720868352/problems/994805521431773184" target="_blank" rel="noopener">https://pintia.cn/problem-sets/994805342720868352/problems/994805521431773184</a></p><h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>输出每一层叶子节点的个数，dfs自带深度查询，dfs里再放个depth参数即可</p><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> maxn=<span class="number">110</span>;</span><br><span class="line"></span><br><span class="line"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; child[maxn];</span><br><span class="line"><span class="keyword">int</span> ans[maxn];</span><br><span class="line"><span class="keyword">int</span> maxdepth=<span class="number">-1</span>;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">dfs</span><span class="params">(<span class="keyword">int</span> v,<span class="keyword">int</span> depth)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(child[v].<span class="built_in">size</span>()==<span class="number">0</span>)&#123;</span><br><span class="line">        maxdepth=<span class="built_in">max</span>(maxdepth,depth);</span><br><span class="line">        ans[depth]++;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;child[v].<span class="built_in">size</span>();i++)&#123;</span><br><span class="line">        dfs(child[v][i],depth+<span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n,m;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;n,&amp;m);</span><br><span class="line">    <span class="keyword">if</span>(n==<span class="number">0</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">while</span>(m--)&#123;</span><br><span class="line">        <span class="keyword">int</span> id,k;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;id,&amp;k);</span><br><span class="line">        <span class="keyword">while</span>(k--)&#123;</span><br><span class="line">            <span class="keyword">int</span> tem;</span><br><span class="line">            <span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;tem);</span><br><span class="line">            child[id].push_back(tem);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    dfs(<span class="number">1</span>,<span class="number">0</span>);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;=maxdepth;i++)&#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d%s"</span>,ans[i],i==maxdepth ? <span class="string">""</span>:<span class="string">" "</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> code </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 树 </tag>
+            
+            <tag> dfs </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>PAT-1087</title>
       <link href="/2019/11/24/PAT-1087/"/>
       <url>/2019/11/24/PAT-1087/</url>
@@ -200,9 +227,9 @@
       
         <tags>
             
-            <tag> dfs </tag>
-            
             <tag> 树 </tag>
+            
+            <tag> dfs </tag>
             
         </tags>
       
@@ -874,9 +901,9 @@
             
             <tag> 图 </tag>
             
-            <tag> PAT </tag>
-            
             <tag> dfs </tag>
+            
+            <tag> PAT </tag>
             
         </tags>
       
@@ -903,9 +930,9 @@
             
             <tag> 图 </tag>
             
-            <tag> PAT </tag>
-            
             <tag> dfs </tag>
+            
+            <tag> PAT </tag>
             
         </tags>
       
@@ -932,9 +959,9 @@
             
             <tag> 图 </tag>
             
-            <tag> PAT </tag>
-            
             <tag> dfs </tag>
+            
+            <tag> PAT </tag>
             
         </tags>
       
