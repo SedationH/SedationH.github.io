@@ -4,6 +4,100 @@
   
     
     <entry>
+      <title>字幕文件处理</title>
+      <link href="/2019/11/25/%E5%AD%97%E5%B9%95%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86/"/>
+      <url>/2019/11/25/%E5%AD%97%E5%B9%95%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>利用YouTube强化英语，初始阶段直接看着英文字幕+查单词比较麻烦，有字幕文件，但是因为是.str格式的看着不方便，也想以句为单位添加自动翻译，增强理解</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> code </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实践 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Markdown编辑和预览</title>
+      <link href="/2019/11/25/Markdown%E7%BC%96%E8%BE%91%E5%92%8C%E9%A2%84%E8%A7%88/"/>
+      <url>/2019/11/25/Markdown%E7%BC%96%E8%BE%91%E5%92%8C%E9%A2%84%E8%A7%88/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> code </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>PAT自动签到</title>
+      <link href="/2019/11/25/PAT%E8%87%AA%E5%8A%A8%E7%AD%BE%E5%88%B0/"/>
+      <url>/2019/11/25/PAT%E8%87%AA%E5%8A%A8%E7%AD%BE%E5%88%B0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>去pat商店自动签到，攒50元代金券。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> code </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实践 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>用需求引导学习</title>
+      <link href="/2019/11/25/%E7%94%A8%E9%9C%80%E6%B1%82%E5%BC%95%E5%AF%BC%E5%AD%A6%E4%B9%A0/"/>
+      <url>/2019/11/25/%E7%94%A8%E9%9C%80%E6%B1%82%E5%BC%95%E5%AF%BC%E5%AD%A6%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>学的东西要能有应用场景去实践和反复练习，才能有效强化和巩固，这也就是为什么在过去的学习中，作业所起到的作用。</p><p>我希望我的计算机技能学习能够更加高效和有目标，也希望他们能真正的帮助我的生活。</p><p>由此，在这里记下我的需求，这些都需要我去用相关的专业知识去解决。</p><p>本文记录格式：</p><ul><li><input disabled="" type="checkbox"> xxx</li><li><input checked="" disabled="" type="checkbox"> xxx</li></ul><p>引入tag</p><h2 id="实践"><a href="#实践" class="headerlink" title="实践"></a>实践</h2><ul><li><input disabled="" type="checkbox"> 处理.str字幕文件并分段翻译</li><li><input disabled="" type="checkbox"> pat自动签到功能实现</li><li><input disabled="" type="checkbox"> 安卓markdown编辑和阅览</li><li><input disabled="" type="checkbox"> 安卓markdown书籍工具</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> code </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> plan </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>PAT-1004</title>
       <link href="/2019/11/24/PAT-1004/"/>
       <url>/2019/11/24/PAT-1004/</url>
@@ -1093,6 +1187,8 @@
             <tag> PAT </tag>
             
             <tag> 竞赛 </tag>
+            
+            <tag> plan </tag>
             
         </tags>
       
