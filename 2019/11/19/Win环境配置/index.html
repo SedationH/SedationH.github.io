@@ -35,7 +35,7 @@ ga('send', 'pageview');</script><script>var GLOBAL_CONFIG = {
 <p>scoop不仅轻量，可以直接装到我们的指定目录下，不需要申请管理员权限也不会污染系统环境变量</p>
 <p>下面记录一下安装</p>
 <p>我的方案是不管是不是全局，都放到一个文件夹下，我不会用scoop下载过多的工具软件，因为不方便在win下的操作，比如利用scoop下载的bandzip没法快捷压缩文件等等的问题，还是自己手动去下载方便</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">[environment]::setEnvironmentVariable('SCOOP','D:\scoop','User')</span><br><span class="line">$env:SCOOP='D:\scoop'</span><br><span class="line">[environment]::setEnvironmentVariable('SCOOP_GLOBAL','D:\scoop','Machine')</span><br><span class="line">$env:SCOOP_GLOBAL='D:\scoop'</span><br><span class="line">iex (new-object <span class="built_in">net</span>.webclient).downloadstring('https://get.scoop.sh')</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[environment]::setEnvironmentVariable(&apos;SCOOP&apos;,&apos;D:\scoop&apos;,&apos;User&apos;)</span><br><span class="line">$env:SCOOP=&apos;D:\scoop&apos;</span><br><span class="line">[environment]::setEnvironmentVariable(&apos;SCOOP_GLOBAL&apos;,&apos;D:\scoop&apos;,&apos;Machine&apos;)</span><br><span class="line">$env:SCOOP_GLOBAL=&apos;D:\scoop&apos;</span><br><span class="line"># 先设置 PowerShell 允许执行未签名脚本</span><br><span class="line">set-executionpolicy remotesigned -s currentuser</span><br><span class="line"># 下载 Scoop 安装脚本进行安装</span><br><span class="line">iex (new-object net.webclient).downloadstring(&apos;https://get.scoop.sh&apos;)</span><br></pre></td></tr></table></figure>
 
 <p>在scoop里面，bucket就是一个软件仓库，默认的仓库里有些软件是没有的，我们要添加一些bucket(之前需要先安装git)</p>
 <p><a href="<<https://github.com/rasa/scoop-directory/blob/master/by-score.md">bucket排行</a>&gt;</p>
