@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>前端学习记录与规划</title>
+      <link href="/2019/12/30/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%E4%B8%8E%E8%A7%84%E5%88%92/"/>
+      <url>/2019/12/30/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%E4%B8%8E%E8%A7%84%E5%88%92/</url>
+      
+        <content type="html"><![CDATA[<p>这个页面用来记录我的前端学习过程，坚持更新，加油吧，大前端！！！</p><h2 id="规划"><a href="#规划" class="headerlink" title="规划"></a>规划</h2><p>-[ ] 慕课去哪儿网Vue初步熟悉<br>-[ ] Weex学习和安卓搭建</p><h2 id="记录"><a href="#记录" class="headerlink" title="记录"></a>记录</h2><p>191230 去哪第二章节</p><h2 id="整理"><a href="#整理" class="headerlink" title="整理"></a>整理</h2><p><a href="https://cn.vuejs.org/v2/guide/" target="_blank" rel="noopener">Vue Guide</a><br><a href="https://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html" target="_blank" rel="noopener">MVC，MVP 和 MVVM 的图示</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> note </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>cplus面向对象复习</title>
       <link href="/2019/12/19/cplus%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%A4%8D%E4%B9%A0/"/>
       <url>/2019/12/19/cplus%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%A4%8D%E4%B9%A0/</url>
@@ -453,9 +472,9 @@
       
         <tags>
             
-            <tag> dijkstra </tag>
-            
             <tag> dfs </tag>
+            
+            <tag> dijkstra </tag>
             
         </tags>
       
@@ -1305,9 +1324,9 @@
       
         <tags>
             
-            <tag> 图 </tag>
-            
             <tag> dfs </tag>
+            
+            <tag> 图 </tag>
             
             <tag> PAT </tag>
             
@@ -1334,9 +1353,9 @@
       
         <tags>
             
-            <tag> 图 </tag>
-            
             <tag> dfs </tag>
+            
+            <tag> 图 </tag>
             
             <tag> PAT </tag>
             
@@ -1363,9 +1382,9 @@
       
         <tags>
             
-            <tag> 图 </tag>
-            
             <tag> dfs </tag>
+            
+            <tag> 图 </tag>
             
             <tag> PAT </tag>
             
