@@ -4,6 +4,63 @@
   
     
     <entry>
+      <title>mock数据模拟</title>
+      <link href="/2020/01/20/mock%E6%95%B0%E6%8D%AE%E6%A8%A1%E6%8B%9F/"/>
+      <url>/2020/01/20/mock%E6%95%B0%E6%8D%AE%E6%A8%A1%E6%8B%9F/</url>
+      
+        <content type="html"><![CDATA[<p>新学习的mock数据模拟，用于前端向后端进行数据请求，在前端项目开发中帮助巨大，在此记录</p><h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><p>全局安装http-server</p><p>终端中<code>npm install -g http-server</code></p><p>创建demo目录，新建db.json与index.html<br>在html body中请求</p><p><img src="1.png" alt="演示"></p><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.bootcss.com/jquery/3.4.1/jquery.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="actionscript">        $.get(<span class="string">'db.json'</span>,<span class="function"><span class="keyword">function</span><span class="params">(res)</span></span>&#123;</span></span><br><span class="line"><span class="javascript">            <span class="built_in">console</span>.log(res);</span></span><br><span class="line">        &#125;)</span><br><span class="line">    <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure><p>终端中<code>http-server -o</code>或者<code>hs -o</code>使用工具连接数据与文件</p><p>缺点如下</p><ul><li>只能get，无法使用其他请求</li><li>引用语句中带文件格式，转为实际项目需要大量修改</li><li>数据创建麻烦</li></ul><h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><p>这种方法只能生成数据，拦截请求</p><p><a href="http://mockjs.com/" target="_blank" rel="noopener">Mockjs</a></p><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.bootcss.com/jquery/3.4.1/jquery.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.bootcss.com/Mock.js/1.0.1-beta3/mock-min.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="actionscript">        Mock.mock(<span class="string">'/db'</span>,<span class="string">'get'</span>,&#123;</span></span><br><span class="line"><span class="actionscript">            hello: <span class="string">'mock.js'</span></span></span><br><span class="line">        &#125;)</span><br><span class="line"><span class="actionscript">        $.get(<span class="string">'/db'</span>,<span class="function"><span class="keyword">function</span><span class="params">(res)</span></span>&#123;</span></span><br><span class="line"><span class="javascript">            <span class="built_in">console</span>.log(res);</span></span><br><span class="line">        &#125;)</span><br><span class="line">    <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure><h2 id="方法三-重点使用"><a href="#方法三-重点使用" class="headerlink" title="方法三(重点使用)"></a>方法三(重点使用)</h2><p><a href="https://github.com/typicode/json-server" target="_blank" rel="noopener">json-server</a></p><p>使用方法见文档</p><p>可以进行post，数据直接修改到本地文件上，实现持久化</p><p>可以使用postman进行相关测试</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> code </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>npm总结</title>
+      <link href="/2020/01/15/npm%E6%80%BB%E7%BB%93/"/>
+      <url>/2020/01/15/npm%E6%80%BB%E7%BB%93/</url>
+      
+        <content type="html"><![CDATA[<p>npm是前端的包管理工具，本文对个人在npm使用过程的的一些问题做一下记录。</p><h2 id="install"><a href="#install" class="headerlink" title="install"></a>install</h2><p>关于npm install –save(a)与npm install –save-dev(b)的区别:</p><ul><li>a会把依赖包名添加到package.json的dependencies下，是运行时依赖</li><li>b会把依赖包名添加到package.json的devDependencies下，开发时依赖</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> code </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>课程表项目</title>
+      <link href="/2020/01/15/%E8%AF%BE%E7%A8%8B%E8%A1%A8%E9%A1%B9%E7%9B%AE/"/>
+      <url>/2020/01/15/%E8%AF%BE%E7%A8%8B%E8%A1%A8%E9%A1%B9%E7%9B%AE/</url>
+      
+        <content type="html"><![CDATA[<h2 id="项目准备"><a href="#项目准备" class="headerlink" title="项目准备"></a>项目准备</h2><p>计划使用uni-app完成一个课程表项目，界面类似超级课程表</p><p>最终效果：</p><ol><li>美观的展示页面</li><li>小程序(QQ/WeChat)平台支持</li><li>能够自动通过教务系统获取课程表或者通过excel导入</li></ol><p><img src="1.png" alt="超级课程表App效果图"></p><h2 id="任务分解"><a href="#任务分解" class="headerlink" title="任务分解"></a>任务分解</h2><ol><li>先尝试把演示demo做出来</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> code </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>前端学习记录与规划</title>
       <link href="/2019/12/30/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%E4%B8%8E%E8%A7%84%E5%88%92/"/>
       <url>/2019/12/30/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%E4%B8%8E%E8%A7%84%E5%88%92/</url>
@@ -472,9 +529,9 @@
       
         <tags>
             
-            <tag> dfs </tag>
-            
             <tag> dijkstra </tag>
+            
+            <tag> dfs </tag>
             
         </tags>
       
@@ -1324,9 +1381,9 @@
       
         <tags>
             
-            <tag> dfs </tag>
-            
             <tag> 图 </tag>
+            
+            <tag> dfs </tag>
             
             <tag> PAT </tag>
             
@@ -1353,9 +1410,9 @@
       
         <tags>
             
-            <tag> dfs </tag>
-            
             <tag> 图 </tag>
+            
+            <tag> dfs </tag>
             
             <tag> PAT </tag>
             
@@ -1382,9 +1439,9 @@
       
         <tags>
             
-            <tag> dfs </tag>
-            
             <tag> 图 </tag>
+            
+            <tag> dfs </tag>
             
             <tag> PAT </tag>
             
@@ -1532,7 +1589,7 @@
       <link href="/2019/10/22/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
       <url>/2019/10/22/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/</url>
       
-        <content type="html"><![CDATA[<h2 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h2><p>由#号的个数来决定，一个是一级标题（最大），两个是二级标题等等</p><p>分割线：三个以上的短线 即可作出分割线</p><hr><p><strong>加粗</strong>的话用前后各两个星号围着</p><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">#<span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line">#<span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> n;</span><br><span class="line"><span class="keyword">bool</span> book[<span class="number">10010</span>];</span><br><span class="line"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; vec;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;n);</span><br><span class="line">    <span class="keyword">int</span> num;</span><br><span class="line">    <span class="keyword">while</span>(n--)&#123;</span><br><span class="line">        <span class="built_in">cin</span>&gt;&gt;num;</span><br><span class="line">        vec.push_back(num);</span><br><span class="line">        book[num]=<span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;vec.<span class="built_in">size</span>();i++)&#123;</span><br><span class="line">        <span class="keyword">if</span>(book[vec[i] ]==<span class="literal">false</span>)&#123;</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">"%d"</span>,vec[i]);</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;<span class="string">"None"</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">![](相对位置) -&gt;图片</span><br><span class="line">[文字内容](链接)</span><br></pre></td></tr></table></figure><p><a href="https://www.baidu.com/?tn=98010089_dg&ch=14" target="_blank" rel="noopener">百度</a></p><p><a href="https://www.jianshu.com/p/191d1e21f7ed" target="_blank" rel="noopener">这个作者写的很好</a></p>]]></content>
+        <content type="html"><![CDATA[<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">![](相对位置) -&gt;图片</span><br><span class="line">[文字内容](链接)</span><br></pre></td></tr></table></figure><p><a href="https://www.baidu.com/?tn=98010089_dg&ch=14" target="_blank" rel="noopener">百度</a></p><p><a href="https://www.jianshu.com/p/191d1e21f7ed" target="_blank" rel="noopener">这个作者写的很好</a></p>]]></content>
       
       
       <categories>
