@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>css总结</title>
+      <link href="/2020/01/24/css%E6%80%BB%E7%BB%93/"/>
+      <url>/2020/01/24/css%E6%80%BB%E7%BB%93/</url>
+      
+        <content type="html"><![CDATA[<p>总结一些css比较重要的属性和经验</p><h2 id="position"><a href="#position" class="headerlink" title="position"></a>position</h2><p>参看<a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/position" target="_blank" rel="noopener">https://developer.mozilla.org/zh-CN/docs/Web/CSS/position</a></p><p><code>position: static | relative | absolute | fixed</code><br>relative是根据原来位置进行偏移，仍然保留原来的文档空间[1]</p><p>其中(absolute&amp;fixed)会被移出文档流，不占据原来文档流的空间,absolute是根据最近的非static的祖先元素定位偏移[2]，flex是根据视窗来定位。</p><p>由[1][2]，可以便捷的布局，这就是div布局里常用的福祥“子绝父相”</p><h2 id="垂直外边距合并问题"><a href="#垂直外边距合并问题" class="headerlink" title="垂直外边距合并问题"></a>垂直外边距合并问题</h2><p><a href="https://zhidao.baidu.com/question/1175146269673993779.html" target="_blank" rel="noopener">https://zhidao.baidu.com/question/1175146269673993779.html</a></p><p>外边距合并： 当两个垂直外边距相遇时，他们形成一个外边距，合成后的外边距等于两个外边距张较大的哪个。</p><p>实际工作中，垂直外边距合并问题常见于第一个子元素的margin-top会顶开父元素与父元素相邻元素的间距，为父元素增加一个border-top或者padding-top即可解决这个问题。</p><h2 id="使用box-sizing解决盒子布局问题"><a href="#使用box-sizing解决盒子布局问题" class="headerlink" title="使用box-sizing解决盒子布局问题"></a>使用box-sizing解决盒子布局问题</h2><p>参看<a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-sizing" target="_blank" rel="noopener">https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-sizing</a></p><p>在盒子模型中<br>盒子的实际宽度和高度 = <code>padding + border + width</code></p><p><img src="1.png" alt="盒子模型"></p><p>使用<code>box-sizing: box-border</code>可以完美解决问题，声明的长度和宽度都只作用到内容上</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> note </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>mock数据模拟</title>
       <link href="/2020/01/20/mock%E6%95%B0%E6%8D%AE%E6%A8%A1%E6%8B%9F/"/>
       <url>/2020/01/20/mock%E6%95%B0%E6%8D%AE%E6%A8%A1%E6%8B%9F/</url>
@@ -273,9 +292,9 @@
       
         <tags>
             
-            <tag> 树 </tag>
-            
             <tag> dfs </tag>
+            
+            <tag> 树 </tag>
             
         </tags>
       
@@ -300,9 +319,9 @@
       
         <tags>
             
-            <tag> 树 </tag>
-            
             <tag> dfs </tag>
+            
+            <tag> 树 </tag>
             
         </tags>
       
@@ -327,9 +346,9 @@
       
         <tags>
             
-            <tag> 树 </tag>
-            
             <tag> dfs </tag>
+            
+            <tag> 树 </tag>
             
         </tags>
       
@@ -354,9 +373,9 @@
       
         <tags>
             
-            <tag> 树 </tag>
-            
             <tag> dfs </tag>
+            
+            <tag> 树 </tag>
             
         </tags>
       
@@ -381,9 +400,9 @@
       
         <tags>
             
-            <tag> 树 </tag>
-            
             <tag> dfs </tag>
+            
+            <tag> 树 </tag>
             
         </tags>
       
@@ -502,9 +521,9 @@
       
         <tags>
             
-            <tag> 树 </tag>
-            
             <tag> dfs </tag>
+            
+            <tag> 树 </tag>
             
         </tags>
       
@@ -709,9 +728,9 @@
       
         <tags>
             
-            <tag> 树 </tag>
-            
             <tag> dfs </tag>
+            
+            <tag> 树 </tag>
             
         </tags>
       
@@ -1383,9 +1402,9 @@
             
             <tag> 图 </tag>
             
-            <tag> dfs </tag>
-            
             <tag> PAT </tag>
+            
+            <tag> dfs </tag>
             
         </tags>
       
@@ -1412,9 +1431,9 @@
             
             <tag> 图 </tag>
             
-            <tag> dfs </tag>
-            
             <tag> PAT </tag>
+            
+            <tag> dfs </tag>
             
         </tags>
       
@@ -1441,9 +1460,9 @@
             
             <tag> 图 </tag>
             
-            <tag> dfs </tag>
-            
             <tag> PAT </tag>
+            
+            <tag> dfs </tag>
             
         </tags>
       
