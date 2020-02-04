@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>个人博客项目</title>
+      <link href="/2020/01/25/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%A1%B9%E7%9B%AE/"/>
+      <url>/2020/01/25/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%A1%B9%E7%9B%AE/</url>
+      
+        <content type="html"><![CDATA[<p>计划使用vue和nodejs搭建一个前后端分离的博客项目，我对新的博客项目有以下需求</p><ol><li>能够方便的使用和插入图片</li><li>通过admin可以快速方便的管理文章，增删改</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> code </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>css总结</title>
       <link href="/2020/01/24/css%E6%80%BB%E7%BB%93/"/>
       <url>/2020/01/24/css%E6%80%BB%E7%BB%93/</url>
@@ -472,31 +491,6 @@
         <tags>
             
             <tag> 实践 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>用需求引导学习</title>
-      <link href="/2019/11/25/%E7%94%A8%E9%9C%80%E6%B1%82%E5%BC%95%E5%AF%BC%E5%AD%A6%E4%B9%A0/"/>
-      <url>/2019/11/25/%E7%94%A8%E9%9C%80%E6%B1%82%E5%BC%95%E5%AF%BC%E5%AD%A6%E4%B9%A0/</url>
-      
-        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>学的东西要能有应用场景去实践和反复练习，才能有效强化和巩固，这也就是为什么在过去的学习中，作业所起到的作用。</p><p>我希望我的计算机技能学习能够更加高效和有目标，也希望他们能真正的帮助我的生活。</p><p>由此，在这里记下我的需求，这些都需要我去用相关的专业知识去解决。</p><p>本文记录格式：</p><ul><li>[] xxx</li><li><input checked="" disabled="" type="checkbox"> xxx</li></ul><p>引入taga</p><h2 id="实践"><a href="#实践" class="headerlink" title="实践"></a>实践</h2><ul><li>[] 处理.str字幕文件并分段翻译</li><li><input checked="" disabled="" type="checkbox"> pat自动签到功能实现</li><li>[] 安卓markdown编辑和阅览</li><li>[] 安卓markdown书籍工具</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> code </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> plan </tag>
             
         </tags>
       
@@ -1204,9 +1198,9 @@
       
         <tags>
             
-            <tag> 排序 </tag>
-            
             <tag> PAT </tag>
+            
+            <tag> 排序 </tag>
             
         </tags>
       
